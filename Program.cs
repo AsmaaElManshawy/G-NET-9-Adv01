@@ -153,9 +153,14 @@
             #region Question 10
 
             /*
-             * Q10:  What is the interface constraint? Write an example.
+             * Q10:  What is the interface constraint? 
+             * ---------------------------
+             * where T : IInterface requires T to implement a specific interface. 
+             * This enables calling interface methods on type parameter.
              * 
              * 
+             * ---------------------------
+             * Write an example.
              */
 
             #endregion
