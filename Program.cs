@@ -139,9 +139,13 @@
             #region Question 09
 
             /*
-             *  Q9: What is the 'new()' constraint? Write an example.
-             * 
-             * 
+             *  Q9: What is the 'new()' constraint? 
+             *  --------------------------
+             *  where T : new() requires T to have a public parameterless constructor. 
+             *  This allows you to create instances of T inside the generic code.
+             *  
+             *  --------------------------
+             *  Write an example.
              */
 
             #endregion
