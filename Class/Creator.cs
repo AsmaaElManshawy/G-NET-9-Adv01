@@ -1,0 +1,16 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Assignment_1.Class
+{
+    internal class Creator<T> where T : new()
+    {
+        public T Create()
+        {
+            return new T();
+        }
+    }
+}
