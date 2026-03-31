@@ -1,4 +1,6 @@
-﻿using Assignment_1.Class;
+﻿using System;
+using Assignment_1.Class;
+using Assignment_1.ExerciseQ20;
 
 namespace Assignment_1
 {
@@ -367,8 +369,34 @@ namespace Assignment_1
              * Q20: Complete Exercise - Create a generic Cache<TKey, TValue> 
              * with Add, Get, Remove, Contains, and expiration support. 
              * 
-             * 
              */
+
+
+            //// Create cache
+            //Cache<string, string> cache = new Cache<string, string>();
+
+            //// Add items (expire after 5 seconds)
+            //cache.Add("user1", "Asmaa", TimeSpan.FromSeconds(5));
+            //cache.Add("user2", "Ali", TimeSpan.FromSeconds(10));
+
+            //// Get values
+            //Console.WriteLine($"User1 : {cache.Get("user1")}"); // Asmaa
+
+            //Console.WriteLine($"User2 : {cache.Get("user2")}"); // Ali
+
+            //// Wait to test expiration
+            //Console.WriteLine("Waiting 6 seconds...");
+            //System.Threading.Thread.Sleep(6000);
+            //Console.WriteLine("\nAfter expiration\n");
+
+            //// Check if exists
+            //// After expiration
+            //Console.WriteLine($"User1 : {cache.Get("user1")}"); // default (null)
+            //Console.WriteLine($"User1 Exists : {cache.Contains("user1")}"); // False
+
+            //// Remove manually
+            //cache.Remove("user2");
+            //Console.WriteLine($"User2 Exists After Removing manually : {cache.Contains("user2")}"); // False
 
             #endregion
 
