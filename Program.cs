@@ -222,8 +222,15 @@
 
             /*
              *  Q13: What does the 'default' keyword do in generics?
+             * -----------------------------
+             * 
+             * Returns the default value of a type:
+             * ==>  0 for numbers
+             * ==>  false for bool
+             * ==>  null for reference types
              * 
              * 
+             * Use default when you need to initialize or return a "zero" value without knowing the type.
              */
 
             #endregion
