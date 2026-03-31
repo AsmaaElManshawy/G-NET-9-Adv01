@@ -16,11 +16,14 @@
              * ----------------------
              * Q1: What is a generic class? 
              * ----------------------
+             * A generic class is a class that works with any data type using a placeholder type (e.g., T).
              * 
              * ----------------------
              * Why use generics?
              * ----------------------
-             * 
+             * Code reusability 
+             * Type safety (no casting needed) 
+             * Better performance (no boxing/unboxing)
              * 
              */
 
