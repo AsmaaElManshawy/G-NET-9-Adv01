@@ -69,7 +69,7 @@
             //Console.WriteLine($"a = {a}, b = {b}\n"); // a=Hello, b=World
             //Swap<string>(ref a, ref b); // Explicit type
             //Console.WriteLine($"After Swap : a = {a}, b = {b}\n"); // a=World, b=Hello
-           
+
             #endregion
 
             #region Question 05
@@ -87,7 +87,13 @@
             #region Question 06
 
             /*
-             * Q6: What is a generic interface? Write IRepository<T>.
+             * Q6: What is a generic interface? 
+             * -------------------------
+             * Generic interfaces define contracts with type parameters. 
+             * Classes implementing them specify the actual types.
+             * 
+             * ------------------------
+             * Write IRepository<T>.
              * 
              * 
              */
