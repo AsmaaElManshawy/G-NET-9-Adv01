@@ -168,9 +168,26 @@
             #region Question 11
 
             /*
-             *   Q11: What is the base class constraint? Write an example.
-             * 
-             * 
+             *   Q11: What is the base class constraint? 
+             *   ---------------------------
+             *   
+             *   where T : BaseClass , requires T to inherit from a specific base class.
+             *   
+             *   The type used for T must be this class or any class derived from it.
+             *   
+             *   --------------------------
+             *   Write an example.
+             *   ---------------------------
+             *   public class Animal { }
+             *
+             *   public class Dog : Animal { }
+             *   
+             *   public class AnimalHandler<T> where T : Animal
+             *   {
+             *       public void Handle(T animal) { }
+             *   }
+             *   
+             *   
              */
 
             #endregion
