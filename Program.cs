@@ -80,6 +80,8 @@
              * 
              */
 
+            //Console.WriteLine("Max of 3 and 7 is: " + FindMax(3, 7)); 
+
             #endregion
 
             #region Question 06
@@ -246,6 +248,13 @@
             T temp = a;
             a = b;
             b = temp;
+        }
+        #endregion
+
+        #region Question 05
+        public static T FindMax<T>(T a, T b) where T : IComparable<T>
+        {
+            return a.CompareTo(b) > 0 ? a : b;
         }
         #endregion
 
