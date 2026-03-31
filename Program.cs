@@ -103,8 +103,19 @@
             #region Question 07
 
             /*
-             * Q7: What is the 'struct' constraint? Write an example.
+             * Q7: What is the 'struct' constraint? 
+             * --------------------------
+             * Constraints restrict which types can be used as type arguments. 
+             * This enables you to call specific methods on the type parameter.
              * 
+             * Constraint ==> where T : struct
+             * 
+             * Description ==> The 'struct' constraint restricts T to value types only. 
+             * Useful when you need value semantics (copy, no null).
+             * 
+             * 
+             * -------------------------
+             * Write an example.
              * 
              */
 
