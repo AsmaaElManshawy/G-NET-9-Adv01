@@ -259,8 +259,21 @@ namespace Assignment_1
             #region Question 15
 
             /*
-             *  Q15: What is covariance? Explain the 'out' keyword.
+             *  Q15: What is covariance? 
+             *  ------------------------
+             *  Covariance allows you to use a more derived type than originally specified. 
+             *  
+             *  -----------------------
+             *  Explain the 'out' keyword.
+             * ------------------------
+             *  Marked with out keyword. T can only appear in output positions.
+             *              
+             * Allows using a more derived type.  You can return T but not accept it as a parameter.
              * 
+             * public interface IProducer<out T>
+             * {
+             *     T Get();
+             * }
              * 
              */
 
