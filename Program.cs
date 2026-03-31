@@ -49,10 +49,27 @@
             #region Question 04
 
             /*
-             * Q4: What is a generic method? Write Swap<T> method.
+             * Q4: What is a generic method? 
+             * -------------------------
+             * A generic method declares its own type parameter(s). 
+             * It can exist in both generic and non-generic classes. 
+             * The compiler often infers the type argument.
+             * 
+             * -----------------------
+             * Write Swap<T> method.
              * 
              */
 
+            //int x = 5, y = 10;
+            //Console.WriteLine($"x = {x}, y = {y}\n"); // x=5, y=10
+            //Swap(ref x, ref y);  // Compiler infers T = int
+            //Console.WriteLine($"After Swap : x = {x}, y = {y}\n"); // x=10, y=5
+
+            //string a = "Hello", b = "World";
+            //Console.WriteLine($"a = {a}, b = {b}\n"); // a=Hello, b=World
+            //Swap<string>(ref a, ref b); // Explicit type
+            //Console.WriteLine($"After Swap : a = {a}, b = {b}\n"); // a=World, b=Hello
+           
             #endregion
 
             #region Question 05
@@ -220,5 +237,18 @@
 
             Console.WriteLine("\n" + new string('-', 70) + "\n");
         }
+
+        #region Helpful Methods
+
+        #region Question 04
+        public static void Swap<T>(ref T a, ref T b)
+        {
+            T temp = a;
+            a = b;
+            b = temp;
+        }
+        #endregion
+
+        #endregion
     }
 }
