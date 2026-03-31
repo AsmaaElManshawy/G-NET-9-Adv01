@@ -338,7 +338,24 @@ namespace Assignment_1
 
             /*
              * Q19: How can you inherit from a generic class?
+             * ---------------------------
+             * Generic classes can inherit from other generic or non-generic classes. 
+             * Several patterns are possible.
              * 
+             * public class Base<T>
+             * {
+             *     public T Value { get; set; }
+             * }
+             * -------
+             * public class Derived : Base<int>
+             * {
+             * }
+             * 
+             * OR
+             * 
+             * public class Derived<T> : Base<T> 
+             * {
+             * }
              * 
              */
 
