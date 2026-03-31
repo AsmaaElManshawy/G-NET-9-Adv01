@@ -32,9 +32,17 @@
             #region Question 03
 
             /*
-             * Q3: What are multiple type parameters? Write Pair<TKey, TValue>.
+             * Q3: What are multiple type parameters? 
+             * -----------------------
+             * Generic classes can have multiple type parameters. 
              * 
+             * Common examples: Dictionary<TKey, TValue>, Tuple<T1, T2>
+             * 
+             * ------------------------
+             * Write Pair<TKey, TValue>.
+             * ------------------------
              */
+
 
             #endregion
 
