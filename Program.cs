@@ -124,9 +124,14 @@
             #region Question 08
 
             /*
-             *  Q8: What is the 'class' constraint? Write an example.
-             * 
-             * 
+             *  Q8: What is the 'class' constraint? 
+             *  --------------------------
+             *  where T : class restricts T to reference types only. 
+             *  This allows T to be null and enables reference comparison.
+             *  
+             *  
+             *  --------------------------
+             *  Write an example.
              */
 
             #endregion
