@@ -283,7 +283,16 @@ namespace Assignment_1
 
             /*
              * Q16: What is contravariance? Explain the 'in' keyword.
+             * -------------------------
+             * Contravariance allows you to use a less derived type than originally specified. 
+             * Marked with in keyword. T can only appear in input positions.
              * 
+             * Allows using a less derived type. You can accept T as a parameter but not return it.
+             * 
+             * public interface IConsumer<in T>
+             * {
+             *     void Set(T item);
+             * }
              * 
              */
 
