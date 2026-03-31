@@ -195,9 +195,25 @@
             #region Question 12
 
             /*
-             *  Q12: How do you apply multiple constraints? Write an example.
+             *  Q12: How do you apply multiple constraints? 
+             *  ----------------------------
+             *  You can combine multiple constraints for a single type parameter, 
+             *  and have different constraints for different type parameters.
+             *  
+             *  ----------------------------
+             *  Write an example.
+             * ------------------------------
              * 
-             * 
+             * public class Example<T> where T : class, IDisposable, new()
+             * {
+             *     public T CreateAndUse()
+             *     {
+             *         T obj = new T();
+             *         obj.Dispose();
+             *         return obj;
+             *     }
+             * }
+             *           
              */
 
             #endregion
