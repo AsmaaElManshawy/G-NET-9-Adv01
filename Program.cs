@@ -302,7 +302,15 @@ namespace Assignment_1
 
             /*
              * Q17: What is the difference between covariance and contravariance?
+             * --------------------------
              * 
+             * --------------------------------------------------------------------------------------------------
+             * | Feature   | Covariance (`out`)                           | Contravariance (`in`)              |
+             * | --------- | -------------------------------------------- | ---------------------------------- |
+             * | Direction | More specific                                | More general                       |
+             * | Usage     | Return types                                 | Parameter types                    |
+             * | Example   | `IEnumerable<Derived>` -> `IEnumerable<Base>` | `Action<Base>` -> `Action<Derived>` |
+             * -------------------------------------------------------------------------------------------------
              * 
              */
 
