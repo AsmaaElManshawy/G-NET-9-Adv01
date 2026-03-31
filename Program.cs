@@ -1,4 +1,6 @@
-﻿namespace Assignment_1
+﻿using Assignment_1.Class;
+
+namespace Assignment_1
 {
     internal class Program
     {
@@ -240,8 +242,17 @@
             /*
              * Q14: Write a SafeList<T> that returns default when the index is invalid.
              * 
-             * 
              */
+
+            //SafeList<string> names = new SafeList<string>();
+
+            //names.Add("Ali");
+            //names.Add("Sara");
+
+            //Console.WriteLine($"names.Get(0)  ==>  {names.Get(0)}"); // Ali
+
+            //// Invalid index → returns default (null for string)
+            //Console.WriteLine($"names.Get(5)  ==>  {names.Get(5) ?? "No value"}"); // No value
 
             #endregion
 
